@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take a Picture"
+            android:id="@+id/button_pic"
+            android:layout_gravity="center_horizontal"
+            android:singleLine="true"
+            android:onClick="onPicButtonClick" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Draw a Cube"
+            android:id="@+id/button_draw"
+            android:layout_gravity="center_horizontal"
+            android:singleLine="true"
+            android:onClick="onDrawButtonClick" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instructions"
+            android:id="@+id/button_instructions"
+            android:layout_gravity="center_horizontal"
+            android:singleLine="true"
+            android:onClick="onInstructionsButtonClick" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:id="@+id/button_exit"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onExitButtonClick" />
+    </LinearLayout>
+</RelativeLayout>
